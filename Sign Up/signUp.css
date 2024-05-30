@@ -1,0 +1,221 @@
+.pc-wrapper{
+    display: none;
+}
+
+.phone-wrapper{
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-page{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#79462e+0,79462e+100&1+0,0.81+100 */
+background: -moz-linear-gradient(45deg,  rgba(121,70,46,1) 0%, rgba(121,70,46,0.81) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(121,70,46,1) 0%,rgba(121,70,46,0.81) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(121,70,46,1) 0%,rgba(121,70,46,0.81) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79462e', endColorstr='#cf79462e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: absolute;    
+}
+
+
+.back-signup {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.logo-signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D8DAB3;
+    position: relative;
+    top: 60px;
+}
+
+.logo-signup .center-word{
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.logo-signup .left-image{
+    position: relative;
+    top: -39px;
+    right: 10px;
+}
+
+.logo-signup .right-image{
+    position: relative;
+    top: 39px;
+    right: -10px;
+}
+
+.description-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 135px;
+    color: #D8DAB3;
+}
+
+.description-signup .big-word{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.description-signup .small-word{
+    font-size: 15px;
+}
+
+.form-signup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    gap: 8px;
+    color: #79462e;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    width: 350px;
+    height: 45px;
+}
+
+.name-signup::placeholder{
+    color: #79462E;
+    opacity: 45%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.email-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    gap: 8px;
+    color: #79462e;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    width: 350px;
+    height: 45px;
+}
+
+.email-signup::placeholder{
+    color: #79462E;
+    opacity: 45%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.pass-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    gap: 8px;
+    color: #79462e;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    width: 350px;
+    height: 45px;
+}
+
+.pass-signup::placeholder{
+    color: #79462E;
+    opacity: 45%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.key-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    gap: 8px;
+    color: #79462e;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    width: 350px;
+    height: 45px;
+}
+
+.key-signup::placeholder{
+    color: #79462E;
+    opacity: 45%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.submit-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 160px;
+    left: 50px;
+    gap: 8px;
+    color: #79462e;
+    font-weight: 600;
+    background-color: #D8DAB3;
+    border: 1px solid #D8DAB3;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 350px;
+    height: 45px;
+}
+
+.already-have-account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 93.2%;
+    left: 100px;
+    gap: 30px;
+    color: #D8DAB3;
+    opacity: 81%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.already-have-account span input{
+    border: none;
+    background-color: transparent;
+    color: #D8DAB3;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    opacity: 100%;
+}

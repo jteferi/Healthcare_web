@@ -1,0 +1,156 @@
+.pc-wrapper{
+    display: none;
+}
+
+.phone-wrapper{
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.signin-page{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dadbb6+0,ffffff+100 */
+background: rgb(218,219,182); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(218,219,182,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(218,219,182,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(218,219,182,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadbb6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.back-signin {
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.logo-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #79462e;
+    position: relative;
+    top: 60px;
+}
+
+.logo-signin .center-word{
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.logo-signin .left-image{
+    position: relative;
+    top: -39px;
+    right: 10px;
+}
+
+.logo-signin .right-image{
+    position: relative;
+    top: 39px;
+    right: -10px;
+}
+
+.description-signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 135px;
+    color: #79462e;
+}
+
+.description-signin .big-word{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.description-signin .small-word{
+    font-size: 15px;
+}
+
+.name-signin-label{
+    color: #79462e;
+    opacity: 81%;
+    position: absolute;
+    top: 360px;
+    left: 90px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name-signin-input{
+    position: absolute;
+    border: 1px solid #79462e;
+    color: #79462e;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    top: 390px;
+    left: 90px;
+    width: 280px;
+    height: 40px;
+}
+
+.pass-signin-label{
+    color: #79462e;
+    opacity: 81%;
+    position: absolute;
+    top: 470px;
+    left: 90px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pass-signin-input{
+    position: absolute;
+    border: 1px solid #79462e;
+    color: #79462e;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    top: 500px;
+    left: 90px;
+    width: 280px;
+    height: 40px;
+}
+
+.submit-signin{
+    position: absolute;
+    top: 600px;
+    background-color: #79462e;
+    color: #D8DAB3;
+    border: none;
+    width: 280px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 90px;
+}
+
+.dont-have-account{
+    position: absolute;
+    top: 660px;
+    left: 110px;
+    color: #79462E;
+    opacity: 81%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dont-have-account span input{
+    border: none;
+    background-color: transparent;
+    color: #79462E;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    opacity: 100%;
+}

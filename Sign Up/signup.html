@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up/ Sign In</title>
+    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="signUp.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="pc-wrapper">
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="adduser.inc.php" method="post">
+                    <h1>Create An Account</h1>
+                    <div class="social-container">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                    </div>
+                    <span>Use your detail for registration.</span>
+                    <input type="text" placeholder="Name" name="name" id="name">
+                    <input type="email" placeholder="Email" name="email" id="email">
+                    <input type="password" placeholder="Password" name="password" id="password">
+                    <input type="number" name="key" id="key" placeholder="Key">
+                    <br/>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="checkuser.inc.php" method="post">
+                    <h1>Sign In</h1>
+                    <div class="social-container">
+
+                    </div>
+                    <span>Login to your account</span>
+                    <input type="text" placeholder="Name" name="name" id="name">
+                    
+                    <input type="password" placeholder="Password" name="password" id="password">
+                    <input type="submit" value="Sign In">
+                    
+                    <br/>
+                </form>
+            </div>
+    
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Already Have An Account</h1>
+                        <p>To keep  in touch with us please login with your account here!</p>
+                        <button id="signIn" class="ghost">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Create An Account</h1>
+                        <p>Enter your personal detail and Register</p>
+                        <button id="signUp" class="ghost">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="signup-page">
+        
+        <div class="back-signup">
+            <a href="../Home/home.html"><input type="image" src="Assets/BackUp.svg" alt=""></a>
+        </div>
+
+        <div class="logo-signup">
+            <div class="center-word">Hospital</div>
+        </div>
+
+        <div class="description-signup">
+            <div class="big-word">Create an account</div>
+            <div class="small-word">Please enter your details</div>
+        </div>
+
+        <form action="adduser.inc.php" method="POST" class="form-signup">
+            <input type="text" name="name" id="name" placeholder="Name" class="name-signup">
+            <input type="email" name="email" id="email" placeholder="Email" class="email-signup">
+            <input type="password" name="password" id="password" placeholder="Password" class="pass-signup">
+            <input type="number" name="key" id="key" placeholder="Key" min="25" class="key-signup">
+            <button type="submit" name="submit" id="submit" class="submit-signup">Sign Up</button>
+        </form>
+            
+        <p class="already-have-account">Already have an account? <span><input type="button" value="Sign In"></span></p>
+    </div>
+
+
+    </div>
+</body>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="script.js"></script>
+<script src="login.js"></script>
+</html>
